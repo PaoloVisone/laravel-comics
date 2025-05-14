@@ -1,6 +1,6 @@
 <footer>
     <nav class="navbar navbar-expand-lg px-5 bg-dark">
-        <div class="container-fluid ">
+        <div class="container">
             <a href="#" class="btn btn-outline-primary text-light" tabindex="-1" role="button" >SIGN-UP NOW!</a>        
         <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
