@@ -2,7 +2,7 @@
     <nav>
         <div class="nav-bar">
             <div class="nav-img">
-                <img src="" alt="">
+                <img src={{ Vite::asset('resources/img/dc-logo.png') }} alt="">
             </div>
             <div class="nav-menu">
                 <ul>
