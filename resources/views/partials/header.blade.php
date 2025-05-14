@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 mx-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
         <div class="container-fluid ">
             <a class="navbar-brand" href="#">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo" class="d-inline-block align-text-top">
