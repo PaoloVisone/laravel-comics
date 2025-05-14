@@ -1,21 +1,24 @@
 <header>
-    <nav>
-        <div class="nav-bar">
-            <div class="nav-img">
-                <img src={{ Vite::asset('resources/img/dc-logo.png') }} alt="">
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href=""></a>CHARACTER</li>
-                    <li><a href=""></a>COMICS</li>
-                    <li><a href=""></a>MOVIES</li>
-                    <li><a href=""></a>TV</li>
-                    <li><a href=""></a>GAMES</li>
-                    <li><a href=""></a>COLLECTIBLES</li>
-                    <li><a href=""></a>VIDEOS</li>
-                    <li><a href=""></a>FANS</li>
-                    <li><a href=""></a>NEWS</li>
-                    <li><a href=""></a>SHOP</li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 mx-5">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">CHARACTER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">COMICS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">MOVIES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">TV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">GAMES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">COLLECTIBLES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">VIDEOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FANS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">NEWS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
                 </ul>
             </div>
         </div>
